@@ -1,0 +1,105 @@
+*{                          /* START */
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+header{ 								/* Background Image only first (top) */
+	background-image: url(../img/black.jpg);
+	height: 23vh;
+	background-size: cover;
+	background-position: center;
+}
+main{									/* slideshow Part Background Image Only */
+	background-image: url(../img/black.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+ }
+.mar{                        /* Marquee (Running Text) */
+font-family: rockwell;
+color: red;
+margin-left: 10%;
+margin-right: 10%;
+}
+.lable1{   								/* welcome to sanjivani lable */
+	position: absolute;
+	color:white;
+	left: 32%;
+	top: 84%;
+	font-size: 30px;
+	font-family: rockwell;	
+}
+.icondown{                  /* Down Arrow Icon */
+  position: absolute;
+  left: 50%;
+  top: 99%;
+  font-size: 70px;
+}
+ .carousel-inner{	  					/* Whole slideshow*/
+ 	padding-top: 50px;
+ }
+ .carousel-inner img {					/* Slideshow Image Only*/
+ 	    padding-top: 20;
+      width: 70%;
+      height: 40%;
+      padding-left: 34%
+  }
+.card{
+	position: absolute;
+	top: 600px;
+	left: 40%;
+}
+										/* FOOTER*/
+.footer-basic {
+  padding: 40px 0;
+  background-color: solid black;
+  color: white;
+}
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+.footer-basic li {
+  padding: 0 10px;
+}
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+/* */
